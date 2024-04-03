@@ -1,0 +1,35 @@
+@font-face {
+	font-family: Symbola;
+	src: url('fonts/Symbola-basic.woff2');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 20px;
+}
+
+body {
+	margin: 0;
+	padding-top: 1rem;
+}
+
+#lines {
+	display: flex;
+	flex-direction: column;
+}
+
+#lines > * {
+	display: flex;
+	align-items: center;
+	border: none;
+	box-shadow: none;
+	padding-left: 1rem;
+}
+
+#lines > .mq-focused {
+	background: #f7f7f7;
+	/* border-block: 0.13rem solid #EEE; */
+}
